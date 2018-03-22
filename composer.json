@@ -1,0 +1,30 @@
+{
+    "name": "blackhilloldmonster/alialiyun-mns-php-sdk",
+    "description": "Alialiyun MNS PHP SDK v1.3.5,",
+    "keywords": [
+        "aliyun",
+        "mns",
+        "php",
+        "sdk"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "blackhilloldmonster",
+            "email": "cmhtm@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "guzzlehttp/psr7": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliyunMNS\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
